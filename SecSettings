@@ -1,0 +1,7 @@
+
+# em res/values/strings.xml
+<string name="mod_version">UniandroidMOD By MJ</string>
+< string name="mod_version_info">AndroWin 1.0 </string>
+
+# em res/xml/device_info_settings xml  ( inserir na última linha)
+<Preference android:key="mod_version" style="?android:preferenceInformationStyle" android:title="@string/mod_version android:summary="@string/mod_version_info" /> 
